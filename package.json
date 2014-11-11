@@ -1,0 +1,34 @@
+{
+  "name": "gosugamers-matches",
+  "version": "0.0.0",
+  "description": "Get information on every match on a page of GosuGamer's match history",
+  "keywords": [
+    "counter-strike"
+  ],
+  "repository": "KenanY/gosugamers-matches",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "concat-stream": "^1.4.6",
+    "each-async": "^1.1.0",
+    "gosugamers-match": "^1.0.1",
+    "hyperquest": "^1.0.1"
+  },
+  "devDependencies": {
+    "lodash.isarray": "^2.4.1",
+    "lodash.isfunction": "^2.4.1",
+    "tape": "^3.0.0"
+  }
+}
