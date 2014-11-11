@@ -8,7 +8,7 @@ test('exports a function', function(t) {
   t.ok(isFunction(gosugamersMatches));
 });
 
-test('gets array of match urls', function(t) {
+test('gets array of matches', function(t) {
   t.plan(3);
 
   gosugamersMatches(1, function(error, matches) {
