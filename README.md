@@ -1,5 +1,7 @@
 # gosugamers-matches
 
+[![Build Status][travis-svg]][travis]
+
 Get information on every match on a page of GosuGamer's match history.
 
 ## Example
@@ -34,3 +36,7 @@ Given _Number_ `page` and _Function_ `callback`, calls `callback(error, data)`,
 where `error` is any _Error_ encountered and _Array_ `data` contains information
 on every match on page `page` of GosuGamers's match history. Information is
 parsed by [gosugamers-match](https://github.com/KenanY/gosugamers-match).
+
+
+   [travis]: https://travis-ci.org/KenanY/gosugamers-matches
+   [travis-svg]: https://img.shields.io/travis/KenanY/gosugamers-matches.svg
