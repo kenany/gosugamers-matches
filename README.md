@@ -1,6 +1,7 @@
 # gosugamers-matches
 
 [![Build Status][travis-svg]][travis]
+[![Dependency Status][gemnasium-svg]][gemnasium]
 
 Get information on every match on a page of GosuGamer's match history.
 
@@ -40,3 +41,5 @@ parsed by [gosugamers-match](https://github.com/KenanY/gosugamers-match).
 
    [travis]: https://travis-ci.org/KenanY/gosugamers-matches
    [travis-svg]: https://img.shields.io/travis/KenanY/gosugamers-matches.svg
+   [gemnasium]: https://gemnasium.com/KenanY/gosugamers-matches
+   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/gosugamers-matches.svg
