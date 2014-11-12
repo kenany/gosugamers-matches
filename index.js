@@ -16,7 +16,7 @@ function parseMatchPage(page, callback) {
 
   stream.pipe(concat(function(data) {
     var $ = cheerio.load(data);
-    var recent = $('table.simple.matches').get(2);
+    var recent = $('table.simple.matches').last();
 
     var matches = $('a.match', recent);
 
