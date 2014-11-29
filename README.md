@@ -10,7 +10,7 @@ Get information on every match on a page of GosuGamer's match history.
 ``` javascript
 var gosugamersMatches = require('gosugamers-matches');
 
-gosugamersMatches(1, function(error, data) {
+gosugamersMatches(1, 'counterstrike', function(error, data) {
   if (error) {
     throw error;
   }
@@ -31,12 +31,13 @@ $ npm install gosugamers-matches
 var gosugamersMatches = require('gosugamers-matches');
 ```
 
-### `gosugamersMatches(page, callback)`
+### `gosugamersMatches(page, game, callback)`
 
-Given _Number_ `page` and _Function_ `callback`, calls `callback(error, data)`,
-where `error` is any _Error_ encountered and _Array_ `data` contains information
-on every match on page `page` of GosuGamers's match history. Information is
-parsed by [gosugamers-match](https://github.com/KenanY/gosugamers-match).
+Given _Number_ `page`, _String_ `game`, and _Function_ `callback`, calls
+`callback(error, data)`, where `error` is any _Error_ encountered and _Array_
+`data` contains information on every match on page `page` of GosuGamers's match
+history for `game`. Information is parsed by
+[gosugamers-match](https://github.com/KenanY/gosugamers-match).
 
 
    [travis]: https://travis-ci.org/KenanY/gosugamers-matches

@@ -5,12 +5,11 @@ var parseMatch = require('gosugamers-match');
 var eachAsync = require('each-async');
 
 var BASE_URL = 'http://www.gosugamers.net';
-var URL = BASE_URL + '/counterstrike/gosubet?r-page=';
 
-function parseMatchPage(page, callback) {
+function parseMatchPage(page, game, callback) {
   var ret = [];
 
-  var stream = hyperquest(URL + page);
+  var stream = hyperquest(BASE_URL + '/' + game + '/gosubet?r-page=' + page);
 
   stream.on('error', callback);
 

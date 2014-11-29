@@ -11,7 +11,7 @@ test('exports a function', function(t) {
 test('gets array of matches', function(t) {
   t.plan(3);
 
-  gosugamersMatches(1, function(error, matches) {
+  gosugamersMatches(1, 'counterstrike', function(error, matches) {
     t.error(error);
     t.ok(isArray(matches));
     t.equal(matches.length, 25);
