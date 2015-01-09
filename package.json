@@ -23,7 +23,7 @@
     "cheerio": "^0.18.0",
     "concat-stream": "^1.4.6",
     "each-async": "^1.1.0",
-    "gosugamers-match": "^1.0.1",
+    "gosugamers-match": "^2.0.1",
     "hyperquest": "^1.0.1"
   },
   "devDependencies": {
